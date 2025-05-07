@@ -296,18 +296,6 @@ public class Driver {
     }
 
 
-    // Complete printAnimals
-    // Include the animal name, status, acquisition country and if the animal is reserved.
-    // Remember that this method connects to three different menu items.
-    // The printAnimals() method has three different outputs
-    // based on the listType parameter
-    // dog - prints the list of dogs
-    // monkey - prints the list of monkeys
-    // available - prints a combined list of all animals that are
-    // fully trained ("in service") but not reserved
-    // Remember that you only have to fully implement ONE of these lists.
-    // The other lists can have a print statement saying "This option needs to be implemented".
-    // To score "exemplary" you must correctly implement the "available" list.
     public static void printAnimals(String animalType, boolean inServiceAndAvailable) {
         if (animalType.equals("dog")) {
             System.out.println("Dogs:");
