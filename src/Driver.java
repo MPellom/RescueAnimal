@@ -14,14 +14,7 @@ public class Driver {
 
         initializeDogList();
         initializeMonkeyList();
-
-        // Add a loop that displays the menu, accepts the users input
-        // and takes the appropriate action.
-        // For the project submission you must also include input validation
-        // and appropriate feedback to the user.
-        // Hint: create a Scanner and pass it to the necessary
-        // methods 
-        // Hint: Menu options 4, 5, and 6 should all connect to the printAnimals() method.
+        
 
         //do while loop until "q" is entered
 
@@ -103,9 +96,8 @@ public class Driver {
     }
 
 
-    // Complete the intakeNewDog method
-    // The input validation to check that the dog is not already in the list
-    // is done for you
+
+
     public static void intakeNewDog(Scanner scanner) {
         System.out.println("What is the dog's name?");
         String name = scanner.nextLine();
@@ -147,14 +139,11 @@ public class Driver {
         System.out.println("\n\n Dog added to system successfully!\n\n");
 
 
-        // Add the code to instantiate a new dog and add it to the appropriate list
+
     }
 
 
-    // Complete intakeNewMonkey
-    //Instantiate and add the new monkey to the appropriate list
-    // For the project submission you must also  validate the input
-    // to make sure the monkey doesn't already exist and the species type is allowed
+
     public static void intakeNewMonkey(Scanner scanner) {
         System.out.println("What is the Monkey's name?");
         String name = scanner.nextLine();
